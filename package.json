@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "install": "cd client && npm install && cd ../server && npm install",
+    "install": "npm install && cd client && npm install && cd ../server && npm install",
     "dev": "concurrently \"cd client && npm start\" \"cd server && node index.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
